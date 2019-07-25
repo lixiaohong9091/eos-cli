@@ -1,0 +1,13 @@
+{
+    "name": "eos-cli",
+    "version": "1.0.0",
+    "description": "脚手架",
+    "main": "index.js",
+    "bin": {
+        "eos": "./bin/www"
+    },
+    "scripts": {
+        "compile": "babel src -d dist",
+        "watch": "npm run compile -- --watch"
+    }
+}
